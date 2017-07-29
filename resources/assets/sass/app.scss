@@ -1,0 +1,98 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.product-avatar{
+  max-width: 150px;
+}
+
+.products-container{
+  .product{
+    margin-top: 1em;
+  }
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.big-padding{
+  padding: 30px;
+}
+
+.large-padding{
+  padding:10px 15px;
+}
+
+.blue-grey{
+  background-color: #37474f;
+}
+
+.white{
+  background-color: white;
+}
+.white-text{
+  color: white;
+}
+
+.table{
+  background-color: white;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.floating{
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  z-index: 100;
+}
+
+.text-right{
+  display: inline-flex;
+}
+
+.product{
+  width: 600px;
+  max-width: 100%;
+  padding: 1em;
+  position: relative;
+
+  h4{
+    padding-bottom: 10px;
+    border-bottom: solid 1px;
+  }
+
+  .actions{
+    right: 1em;
+    top: 10px;
+  }
+
+}
+
+.top-space{
+  margin-top: 1em;
+}
+
+.sale-data{
+  padding: 1em;
+  text-align: center;
+  border-right: solid 1px #222;
+  span{
+    display: block;
+    font-size: 2.2em;
+    color: #3f51b5;
+  }
+}
+
+.created{
+  background: #d4e157;
+}
